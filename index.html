@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="main">
+<div id="nav">
+<h3>Microsoft Word by Zunair</h3>
+</div>
+<div class="container">
+  
+    <div id="colors">
+        <br>
+    <ul>
+        <div onclick="color('red')" id="red"></div>
+        <div onclick="color('black')" id="black"></div>
+        <div onclick="color('blue')" id="blue"></div>
+        <div onclick="color('yellow')" id="yellow"></div>
+        <div onclick="color('pink')" id="pink"></div>
+        <div onclick="color('green')" id="green"></div>
+        <div onclick="color('gray')" id="gray"></div>
+        <div onclick="color('beige')" id="offwhite"></div>
+        <div onclick="color('pink')" id="pink"></div>
+        <div onclick="color('maroon')" id="mehroon"></div>
+    </ul>
+    <ul>
+        <div onclick="color('brown')" id="brown"></div>
+        <div onclick="color('purple')" id="purple"></div>
+        <div onclick="color('orange')" id="orange"></div>
+        <div onclick="color('lawngreen')" id="lightgreen"></div>
+        <div onclick="color('gold')" id="golden"></div>
+        <div onclick="color('chocolate')" id="choclate"></div>
+        <div onclick="color('aqua')" id="aqua"></div>
+        <div onclick="color('blueviolet')" id="blueviolte"></div>
+        <div onclick="color('burlywood')" id="burlywood"></div>
+        <div onclick="color('khaki')" id="khaki"></div>
+        <h4 onclick="bold()" id="bold">B</h4>
+        <h4 onclick="italic()" id="italic">I</h4>
+        <h4 onclick="under()" id="under">U</h4>
+        <img onclick="left()" width="24px" height="24px" src="./left.png" alt="" id="left">
+        <img onclick="center()" width="22px" height="18px" src="./cnter.png" alt="" id="center">
+        <img onclick="right()" width="22px" height="20px" src="./right.png" alt="" id="right">
+        <img onclick="line()" width="33px" height="29px" src="./line.png" alt="" id="line">
+        <img onclick="upper()" width="24px" height="27px" src="./AA (3).png" alt="" id="AA">
+        <img onclick="lower()" width="23px" height="24px" src="./aa (2).png" alt="" id="aa">
+        <img onclick="capital()" width="20px" height="17px" src="./Aa.png" alt="" id="Aa">
+        <input type="color" onchange="back(this)" id="backg">
+        <!-- <img onclick="" width="22px" height="18px" src="./spray.png" alt="" id="xsq"> -->
+        <!-- <select name="" id="">
+            <option value="red"><div id="red"></div></option>
+            <option value="black"></option>
+            <option value="purple"></option>
+            <option value="yellow"></option>
+            <option value="orange"></option>
+            <option value="khaki"></option>
+            <option value="blueviolet"></option>
+            <option value="blue"></option>
+            <option value="gold"></option>
+            <option value="aqua"></option>
+        </select> -->
+        <h4 onclick="over()" style="text-decoration: overline;margin-left: 45px;
+        margin-top: 11px;
+        cursor: pointer;">O</h4>
+        <img onclick="shad()" width="20px" height="20px" src="./shad1.png" alt="" id="shad">
+        <h3 onclick="abc()" style="cursor: pointer;margin-left: 110px;margin-top: -23px;"><del>abc</del></h3>
+        <select name="font" id="font" onchange="fontFamily(this)">
+            <option id="f1" value="Courier New">Courier New</option>
+            <option id="f2" value="Franklin">Franklin</option>
+            <option id="f3" value="fantasy">fantasy</option>
+            <option id="f4" value="Gill Sans">Gill Sans</option>
+            <option id="f5" value="sans-serif">sans-serif</option>
+            <option id="f6" value="monospace">monospace</option>
+            <option  id="f7" value="Arial Narrow Bold">Arial Narrow Bold</option>
+            <option id="f8" value="cursive">cursive</option>
+        </select>
+        <select name="size" id="size" onchange="fontSize(this)">
+<option  value="10px">10</option>
+<option value="12px">12</option>
+<option value="14px">14</option>
+<option value="16px">16</option>
+<option value="18px">18</option>
+<option value="20px">20</option>
+<option value="22px">22</option>
+<option value="24px">24</option>
+<option value="26px">26</option>
+<option value="28px">28</option>
+<option value="30px">30</option>
+<option value="32px">32</option>
+<option value="34px">34</option>
+<option value="36px">36</option>
+<option value="38px">38</option>
+<option value="40px">40</option>
+<option value="50px">50</option>
+<option value="60px">60</option>
+<option value="70px">70</option>
+<option onclick="fontSize(value)" value="80px">80</option>
+        </select>
+        <ul>
+        <div onclick="heading()" id="a">
+            <center>
+<h3 style="color: blue;">AaBbCc</h3>
+<p style="margin-top: -20px;font-size: 12px;">Heading</p>
+</center>
+</div>
+<div onclick="word()" id="b">
+    <center>
+            <h3>AaBbCc</h3>
+            <p style="margin-top: -20px;font-size: 12px;">Word-Spacing</p>
+            
+        </center>
+    </div>
+    <div onclick="letter()" id="c">
+        <center>
+    <h3>AaBbCc</h3>
+    <p style="margin-top: -20px;font-size: 12px;">Letter-Spacing</p>
+
+</center>
+        </div>
+    </ul>
+    </ul>
+   
+ 
+
+</div>
+</div>
+</center>
+<textarea  name="text" id="area" type="number" >
+
+</textarea>
+<!-- <p style="letter-spacing: 9px;">khan khan</p> -->
+<!-- <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">dhgfhfg</p> -->
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+#nav{
+    text-align: center;
+    background-color: rgba(0, 132, 255, 0.753);
+    margin-top: -19px;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color:beige;
+    margin-top: -19px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#colors{
+    margin-left: -25px;
+    padding: 2px;
+     
+}
+#red{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+#white{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#blue{
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#yellow{
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#black{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#pink{
+    height: 15px;
+    width: 15px;
+    background-color: pink;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#offwhite{
+    height: 15px;
+    width: 15px;
+    background-color: aliceblue;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#green{
+    height: 15px;
+    width: 15px;
+    background-color:green;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#mehroon{
+    height: 15px;
+    width: 15px;
+    background-color: maroon;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+#gray{
+    height: 15px;
+    width: 15px;
+    background-color:gray;
+    margin-left: 5px;
+    border: 1px solid black;
+cursor: pointer;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin: 5px
+}
+#orange{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: orange;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#brown{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: brown;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#purple{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: purple;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#lightgreen{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#golden{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#choclate{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: chocolate;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#aqua{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: aqua;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#blueviolte{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#khaki{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: khaki;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#burlywood{
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-color: burlywood;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#italic{
+    font-style: italic;
+    cursor: pointer;
+}
+#under{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#bold{
+    margin-left: 40px;
+    margin-top: -22px;
+    cursor: pointer;
+}
+#italic{
+    margin-left: 43px;
+    margin-top: -22px;
+    
+}
+#under{
+    margin-left: 43px;
+    margin-top: -22px;
+}
+#a1{
+    background-color: red;
+    cursor: pointer;
+}
+#a2{
+background-color: aqua;
+cursor: pointer;
+}
+#a3{
+background-color: blue;
+cursor: pointer;
+}
+#a4{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+#a5{
+    background-color: chocolate;
+    cursor: pointer;
+}
+#heading{
+    margin-left: -678px;
+    background-color: white;
+    color: rgb(0, 119, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#left{
+    margin-left: 40px;
+    margin-top: -24px;
+    cursor: pointer;
+}
+#center{
+    margin-left: 40px;
+    margin-top: -21px;
+    cursor: pointer;
+}
+#right{
+    margin-left: 40px;
+    margin-top: -22px;
+    cursor: pointer;
+}
+#line{
+    margin-left: 35px;
+    margin-top: -26px;
+    cursor: pointer;
+}
+#AA{
+    margin-left: -375px; 
+    cursor: pointer;
+    
+}
+#aa{
+    margin-left: 30px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+#Aa{
+    margin-left: 30px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+#xsq{
+    margin-left: 36px;
+    margin-top: 7px; 
+    cursor: pointer;
+   
+}
+#xbase{
+    margin-left: 45px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+#shad{
+    margin-left: 40px;
+    margin-top: 8px;
+    cursor: pointer;
+    
+}
+#font{
+    margin-left: -100px;
+    height: 20px;
+    margin-top: 7px;
+    width: 70px;
+    cursor: pointer;
+}
+#size{
+    margin-top: 7px;
+    height: 20px;
+    cursor: pointer;
+}
+#f1{
+    
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+#f2{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+#f3{
+    
+    cursor: pointer;
+    font-family: fantasy;
+}
+#f4{
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#f5{
+    cursor: pointer;
+    
+    font-family: sans-serif;
+}
+#f6{
+    
+    font-family: monospace;
+    cursor: pointer;
+}
+#f7{
+    
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#f8{
+    cursor: pointer;
+    
+    font-family: cursive;
+}
+#a{
+    cursor: pointer;
+    width: 80px;
+    height: 70px;
+    border: 1px solid black;
+    margin-top: -35px;
+    
+}
+#b{
+    width: 80px;
+    height: 70px;
+    border: 1px solid black;
+    margin-top: -35px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#c{
+    width: 80px;
+    height: 70px;
+    border: 1px solid black;
+    margin-top: -35px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#area{
+    width: 100%;
+    height: 684px;
+    
+}
+#backg{
+    border: none;
+    width: 30px;
+    margin-left: 28px;
+    margin-top: 3px;
+}
